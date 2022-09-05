@@ -1,5 +1,6 @@
 {
   "include": ["src"],
+  /*include all src folders, including those from submodules */
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
     /* Projects */
