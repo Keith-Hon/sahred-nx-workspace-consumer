@@ -1,0 +1,26 @@
+{
+  "name": "shared-nx-workspace-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.json",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keith-Hon/shared-nx-workspace-consumer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keith-Hon/shared-nx-workspace-consumer/issues"
+  },
+  "homepage": "https://github.com/Keith-Hon/shared-nx-workspace-consumer#readme",
+  "dependencies": {
+    "shared-nx-dog": "0.0.9"    
+  },
+  "devDependencies": {
+    "rimraf": "3.0.2"
+  }
+}
